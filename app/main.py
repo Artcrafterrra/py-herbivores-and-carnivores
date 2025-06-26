@@ -17,6 +17,7 @@ class Animal:
         if self in Animal.alive:
             Animal.alive.remove(self)
 
+
 class Herbivore(Animal):
     def hide(self) -> None:
         self.hidden = not self.hidden
